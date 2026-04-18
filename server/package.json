@@ -4,7 +4,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "echo 'No build step required for backend'"
   },
   "dependencies": {
     "@octokit/rest": "^22.0.1",
