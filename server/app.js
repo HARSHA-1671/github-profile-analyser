@@ -44,7 +44,7 @@ app.use(
 );
 app.use(express.json());
 
-app.use("/api", profileRoutes);
+app.use("/", profileRoutes);
 app.use(notFoundHandler);
 app.use(errorHandler);
 
