@@ -1,6 +1,20 @@
 # Deployment Guide
 
-Follow these steps to deploy the GitHub Profile Analyzer to production.
+> [!CAUTION]
+> **SECURITY WARNING**: Do not push this file to a public repository with live credentials. These are your private keys for deployment.
+
+## 🔑 Your Deployment Keys (Copy-Paste)
+
+Below are the values you will need to paste into the **Environment Variables** section of Render and Vercel.
+
+| Key | Value (Copy this) | Where to paste? |
+| :--- | :--- | :--- |
+| **MONGODB_URI** | `mongodb+srv://masudisaiharsha1671_db_user:MtwuiRD8nDiOtLFk@cluster0.w5ckojo.mongodb.net/github-analyzer?retryWrites=true&w=majority&appName=Cluster0` | Render (Backend) |
+| **GITHUB_TOKEN** | *Insert your GitHub Personal Access Token here* | Render (Backend) |
+| **VITE_API_URL** | `https://your-api-onrender.com` | Vercel (Frontend) |
+| **CLIENT_URL** | `https://your-app.vercel.app` | Render (Backend) |
+
+---
 
 ## 1. Backend (Render / Heroku)
 
