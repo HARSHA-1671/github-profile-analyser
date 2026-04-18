@@ -1,6 +1,4 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "npm run build && mv client/dist dist",
   "outputDirectory": "dist",
   "functions": {
     "api/[...path].js": {
